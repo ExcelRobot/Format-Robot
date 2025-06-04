@@ -1,0 +1,274 @@
+{
+  "Commands": [
+    {
+      "Name": "Format Accounting 0 Decimals",
+      "Description": "Format selection as Accounting with no decimals.",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "a0"
+      ],
+      "MacroExpression": "modFormat.ApplyNumberFormat([Selection],\"_(* #,##0_);_(* (#,##0);_(* \"\" - \"\"??_);_(@_)\")",
+      "Tags": [
+        "Number"
+      ]
+    },
+    {
+      "Name": "Format Accounting 1 Decimal",
+      "Description": "Format selection as Accounting with one decimal.",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "a1"
+      ],
+      "MacroExpression": "modFormat.ApplyNumberFormat([Selection],\"_(* #,##0.0_);_(* (#,##0.0);_(* \"\" - \"\"??_);_(@_)\")",
+      "Tags": [
+        "Number"
+      ]
+    },
+    {
+      "Name": "Format Accounting 2 Decimals",
+      "Description": "Format selection as Accounting with two decimals.",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "a2"
+      ],
+      "MacroExpression": "modFormat.ApplyNumberFormat([Selection],\"_(* #,##0.00_);_(* (#,##0.00);_(* \"\" - \"\"??_);_(@_)\")",
+      "Tags": [
+        "Number"
+      ]
+    },
+    {
+      "Name": "Format Fill Light Blue",
+      "Description": "Format selection with light blue fill.",
+      "Type": "VBAMacroCommand",
+      "MacroExpression": "modFormat.ApplyBackgroundColorRGB([Selection],218,233,248)",
+      "Tags": [
+        "Fill"
+      ]
+    },
+    {
+      "Name": "Format Fill Light Green",
+      "Description": "Format selection with light green fill.",
+      "Type": "VBAMacroCommand",
+      "MacroExpression": "modFormat.ApplyBackgroundColorRGB([Selection],218,242,208)",
+      "Tags": [
+        "Fill"
+      ]
+    },
+    {
+      "Name": "Format Fill Light Orange",
+      "Description": "Format selection with light orange fill.",
+      "Type": "VBAMacroCommand",
+      "MacroExpression": "modFormat.ApplyBackgroundColorRGB([Selection],251,226,213)",
+      "Tags": [
+        "Fill"
+      ]
+    },
+    {
+      "Name": "Format Fill Light Purple",
+      "Description": "Format selection with light purple fill.",
+      "Type": "VBAMacroCommand",
+      "MacroExpression": "modFormat.ApplyBackgroundColorRGB([Selection],242,206,239)",
+      "Tags": [
+        "Fill"
+      ]
+    },
+    {
+      "Name": "Format Fill Light Red",
+      "Description": "Format selection with light red fill.",
+      "Type": "VBAMacroCommand",
+      "MacroExpression": "modFormat.ApplyBackgroundColorRGB([Selection],255,0,0,0.8)",
+      "Tags": [
+        "Fill"
+      ]
+    },
+    {
+      "Name": "Format Fill Light Yellow",
+      "Description": "Format selection with light yellow fill.",
+      "Type": "VBAMacroCommand",
+      "MacroExpression": "modFormat.ApplyBackgroundColorRGB([Selection],255,255,0,0.8)",
+      "Tags": [
+        "Fill"
+      ]
+    },
+    {
+      "Name": "Format Font Black",
+      "Description": "Format selection with black font.",
+      "Type": "VBAMacroCommand",
+      "MacroExpression": "modFormat.ApplyFontColorRGB([Selection],0,0,0)",
+      "Tags": [
+        "Font"
+      ]
+    },
+    {
+      "Name": "Format Font Blue",
+      "Description": "Format selection with blue font.",
+      "Type": "VBAMacroCommand",
+      "MacroExpression": "modFormat.ApplyFontColorRGB([Selection],0,0,255)",
+      "Tags": [
+        "Font"
+      ]
+    },
+    {
+      "Name": "Format Font Grey",
+      "Description": "Format selection with grey font.",
+      "Type": "VBAMacroCommand",
+      "MacroExpression": "modFormat.ApplyFontColorRGB([Selection],128,128,128)",
+      "Tags": [
+        "Font"
+      ]
+    },
+    {
+      "Name": "Format Font Light Grey",
+      "Description": "Format selection with light grey font.",
+      "Type": "VBAMacroCommand",
+      "MacroExpression": "modFormat.ApplyFontColorRGB([Selection],208,208,208)",
+      "Tags": [
+        "Font"
+      ]
+    },
+    {
+      "Name": "Format Font Red",
+      "Description": "Format selection with red font.",
+      "Type": "VBAMacroCommand",
+      "MacroExpression": "modFormat.ApplyFontColorRGB([Selection],255,0,0)",
+      "Tags": [
+        "Font"
+      ]
+    },
+    {
+      "Name": "Format Font White",
+      "Description": "Format selection with white font.",
+      "Type": "VBAMacroCommand",
+      "MacroExpression": "modFormat.ApplyFontColorRGB([Selection],255,255,255)",
+      "Tags": [
+        "Font"
+      ]
+    },
+    {
+      "Name": "Format Multiple 1 Decimal",
+      "Description": "Format selection as multiple with one decimal (0.0x).",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "m1"
+      ],
+      "MacroExpression": "modFormat.ApplyNumberFormat([Selection],\"#,##0.0x\")",
+      "Tags": [
+        "Number"
+      ]
+    },
+    {
+      "Name": "Format Multiple 2 Decimals",
+      "Description": "Format selection as multiple with two decimals (0.00x).",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "m2"
+      ],
+      "MacroExpression": "modFormat.ApplyNumberFormat([Selection],\"#,##0.00x\")",
+      "Tags": [
+        "Number"
+      ]
+    },
+    {
+      "Name": "Format Number 0 Decimals",
+      "Description": "Format selection as Number with no decimals.",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "n0"
+      ],
+      "MacroExpression": "modFormat.ApplyNumberFormat([Selection],\"#,##0\")",
+      "Tags": [
+        "Number"
+      ]
+    },
+    {
+      "Name": "Format Number 1 Decimal",
+      "Description": "Format selection as Number with one decimal.",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "n1"
+      ],
+      "MacroExpression": "modFormat.ApplyNumberFormat([Selection],\"#,##0.0\")",
+      "Tags": [
+        "Number"
+      ]
+    },
+    {
+      "Name": "Format Number 2 Decimals",
+      "Description": "Format selection as Number with two decimals.",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "n2"
+      ],
+      "MacroExpression": "modFormat.ApplyNumberFormat([Selection],\"#,##0.00\")",
+      "Tags": [
+        "Number"
+      ]
+    },
+    {
+      "Name": "Format Number 3 Decimals",
+      "Description": "Format selection as Number with three decimals.",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "n3"
+      ],
+      "MacroExpression": "modFormat.ApplyNumberFormat([Selection],\"#,##0.000\")",
+      "Tags": [
+        "Number"
+      ]
+    },
+    {
+      "Name": "Format Percent 0 Decimals",
+      "Description": "Format selection as Percent with no decimals.",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "p0"
+      ],
+      "MacroExpression": "modFormat.ApplyNumberFormat([Selection],\"0%\")",
+      "Tags": [
+        "Number"
+      ]
+    },
+    {
+      "Name": "Format Percent 1 Decimal",
+      "Description": "Format selection as Percent with one decimal.",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "p1"
+      ],
+      "MacroExpression": "modFormat.ApplyNumberFormat([Selection],\"0.0%\")",
+      "Tags": [
+        "Number"
+      ]
+    },
+    {
+      "Name": "Format Percent 2 Decimals",
+      "Description": "Format selection as Percent with two decimals.",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "p2"
+      ],
+      "MacroExpression": "modFormat.ApplyNumberFormat([Selection],\"0.00%\")",
+      "Tags": [
+        "Number"
+      ]
+    },
+    {
+      "Name": "Format Short Date",
+      "Description": "Format selection as short date (m/d/yyyy).",
+      "Type": "VBAMacroCommand",
+      "MacroExpression": "modFormat.ApplyNumberFormat([Selection],\"m/d/yyyy\")",
+      "Tags": [
+        "Number"
+      ]
+    },
+    {
+      "Name": "Remove Fill Colors",
+      "Description": "Removes all fill colors from selection.",
+      "Type": "VBAMacroCommand",
+      "MacroExpression": "modFormat.RemoveBackgroundFillColor",
+      "Tags": [
+        "Fill"
+      ]
+    }
+  ]
+}

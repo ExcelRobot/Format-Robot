@@ -1,0 +1,27 @@
+# Format Robot Volume 1
+
+## Overview
+
+Format Robot Volume 1 is a collection of commands that apply simple number, text, or fill formatting to the current selection.
+
+## Number Formatting
+
+**Accounting:** Excel's standard Accounting format with no currency symbol. Negatives are in parentheses, zeros are displayed as "-", and all cells are justified to align at the decimal.\
+**Number:** Excel's standard Number format with comma separators. Negatives are displayed with a "-".\
+**Percent:** Excel's standard Percentage format.\
+**Multiple:** A custom format displaying decimal numbers with an "x". Negatives are displayed with a "-".\
+**Short Date:** Excel's standard Date format.
+
+## Fill Colors
+
+**Light Blue:** Lightest of the Dark Blue family in Office's 2023+ theme.\
+**Light Green:** Lightest of the Green family in Office's 2023+ theme.\
+**Light Orange:** Lightest of the Orange family in Office's 2023+ theme.\
+**Light Purple:** Lightest of the Plum family in Office's 2023+ theme.\
+**Light Red:** Lightest red from the Standard color wheel.\
+**Light Yellow:** Lightest yellow from the Standard color wheel.
+
+## Font Colors
+
+**Blue:** Bright blue from the Standard color wheel.\
+**Red:** Brightest red from the Standard list.

@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s18">
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s19">
+   <NumberFormat ss:Format="_(* #,##0_);_(* \(#,##0\);_(* &quot;&quot;\ \-\ &quot;&quot;??_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s20">
+   <NumberFormat ss:Format="_(* #,##0.0_);_(* \(#,##0.0\);_(* &quot;&quot;\ \-\ &quot;&quot;??_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s21">
+   <NumberFormat
+    ss:Format="_(* #,##0.00_);_(* \(#,##0.00\);_(* &quot;&quot;\ \-\ &quot;&quot;??_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s22">
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+  <Style ss:ID="s23">
+   <NumberFormat ss:Format="#,##0.0"/>
+  </Style>
+  <Style ss:ID="s24">
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s25">
+   <NumberFormat ss:Format="#,##0.000"/>
+  </Style>
+  <Style ss:ID="s26">
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s27">
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s28">
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s29">
+   <NumberFormat ss:Format="#,##0.0\x"/>
+  </Style>
+  <Style ss:ID="s30">
+   <NumberFormat ss:Format="#,##0.00\x"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#0000FF"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#808080"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#D0D0D0"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#FF0000"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#000000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s37">
+   <Interior ss:Color="#FFCCCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s38">
+   <Interior ss:Color="#FFFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s39">
+   <Interior ss:Color="#DAE9F8" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s40">
+   <Interior ss:Color="#DAF2D0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s41">
+   <Interior ss:Color="#FBE2D5" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s42">
+   <Interior ss:Color="#F2CEEF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s43">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="16"
+    ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Guide">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="33"
+   ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="14.25"/>
+   <Column ss:Width="112.5"/>
+   <Column ss:Width="73.5"/>
+   <Column ss:Width="58.5"/>
+   <Column ss:Width="69.75"/>
+   <Row ss:Height="21">
+    <Cell ss:StyleID="s43"><Data ss:Type="String">Format Robot Volume 1</Data></Cell>
+   </Row>
+   <Row ss:Index="3">
+    <Cell ss:Index="2"><Data ss:Type="String">Accounting 0 Decimals</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">-1234567.8899999999</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1234567.8899999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Accounting 1 Decimal</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">-1234567.8899999999</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">1234567.8899999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Accounting 2 Decimals</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">-1234567.8899999999</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">1234567.8899999999</Data></Cell>
+   </Row>
+   <Row ss:Index="7">
+    <Cell ss:Index="2"><Data ss:Type="String">Number 0 Decimals</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">-1234567.8899999999</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">1234567.8899999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Number 1 Decimal</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">-1234567.8899999999</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1234567.8899999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Number 2 Decimals</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">-1234567.8899999999</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">1234567.8899999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Number 3 Decimals</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">-1234567.8899999999</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1234567.8899999999</Data></Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell ss:Index="2"><Data ss:Type="String">Percent 0 Decimals</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">-0.12345</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">0.12345</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Percent 1 Decimal</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">-0.12345</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">0.12345</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Percent 2 Decimals</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="Number">-0.12345</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="Number">0.12345</Data></Cell>
+   </Row>
+   <Row ss:Index="16">
+    <Cell ss:Index="2"><Data ss:Type="String">Multiple 1 Decimal</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">-12.34</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">12.34</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Multiple 2 Decimals</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">-12.34</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">12.34</Data></Cell>
+   </Row>
+   <Row ss:Index="19">
+    <Cell ss:Index="2"><Data ss:Type="String">Short Date</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="DateTime">2024-06-25T00:00:00.000</Data></Cell>
+   </Row>
+   <Row ss:Index="21">
+    <Cell ss:Index="2"><Data ss:Type="String">Fill Light Blue</Data></Cell>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Fill Light Green</Data></Cell>
+    <Cell ss:StyleID="s40"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Fill Light Orange</Data></Cell>
+    <Cell ss:StyleID="s41"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Fill Light Purple</Data></Cell>
+    <Cell ss:StyleID="s42"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Fill Light Red</Data></Cell>
+    <Cell ss:StyleID="s37"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Fill Light Yellow</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Index="28">
+    <Cell ss:Index="2"><Data ss:Type="String">Font Black</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Example</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Font Blue</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Example</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Font Grey</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Example</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Font Light Grey</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">Example</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Font Red</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Example</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Font White</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Example</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>
